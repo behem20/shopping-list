@@ -17,6 +17,9 @@ button {
     font-size: 1rem;
     padding: 0.5rem;
 }
+button {
+    background-color: rgb(33, 152, 250);
+}
 
 ul {
     padding: 0;
@@ -31,6 +34,7 @@ li {
     justify-content: space-between;
     border-radius: 6px;
 }
-.hide{
+
+.hide {
     display: none;
 }
