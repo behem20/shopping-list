@@ -14,6 +14,7 @@ form.addEventListener('submit', (e) => {
     addItem(name);
     input.value = '';
     renderItems(getItems(), list, clearBtn);
+    input.focus();
 });
 
 list.addEventListener('click', (e) => {
